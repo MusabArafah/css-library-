@@ -4,58 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moon 2</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <meta name="description" content="Creative - A free Bootstrap theme for building better websites">
+    <title>startbootstrap.com/previews/creative</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
 </head>
 
 <body>
-    <div class="header">
+    <nav class="navbar" id="navbar">
         <div class="container">
-            <div class="row">
-                <div class="logo">
-                    <img src="./assets/img/logo.svg">
-                </div>
-                <div class="list">
-                    <ul>
-                        <li> <a href="#">Home</a></li>
-                        <li> <a href="#">Shop</a></li>
-                        <li> <a href="#">About</a></li>
-                        <li> <a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="icons">
-                    <ul>
-                        <li> <img src="./assets/img/Search.svg"></li>
-                        <li> <img src="./assets/img/Avatar.svg"></li>
-                        <li> <img src="./assets/img/Heart.svg"></li>
-                        <li> <img src="./assets/img/Shopping cart.svg"></li>
-                    </ul>
-                </div>
+            <a href="#" class="navbar-brand">Start Bootstrap</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="navbar-toggler" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </label>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div class="collection_section">
-        <div class="container">
-            <div class="row">
-                <div class="collection">
-                    <img src="./assets/img/TABLEWARE.png">
-                    <h2>TABLEWARE</h2>
-                </div>
-                <div class="collection">
-                    <img src="./assets/img/HOME DECOR.png">
-                    <h2>HOME DECOR</h2>
-                </div>
-                <div class="collection">
-                    <img src="./assets/img/HOLIDAY.png">
-                    <h2>HOLIDAY</h2>
-                </div>
-                <div class="collection">
-                    <img src="./assets/img/COLLECTION.png">
-                    <h2>COLLECTION</h2>
-                </div>
-            </div>
+    </nav>
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Your Favorite Place for Free Bootstrap Themes</h1>
+            <hr class="hero-divider">
+            <p class="hero-subtitle">Start Bootstrap can help you build better websites using the Bootstrap framework!
+                Just
+                download a theme and start customizing, no strings attached!</p>
+            <a href="#about" class="hero-btn">Find Out More</a>
         </div>
-    </div>
+    </header>
 </body>
 
 </html>
