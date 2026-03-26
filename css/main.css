@@ -393,3 +393,45 @@ h6 {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
+
+.cta {
+    background-color: #212529 !important;
+    margin: 0 !important;
+    border: none;
+}
+
+.cta .btn {
+    letter-spacing: 0.1em;
+    transition: all var(--transition-base);
+    box-shadow: none;
+}
+
+.cta .btn:hover {
+    background-color: var(--color-gray-200) !important;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 991px) {
+    .cta {
+        padding-top: var(--space-20) !important;
+        padding-bottom: var(--space-20) !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .cta {
+        padding-top: var(--space-16) !important;
+        padding-bottom: var(--space-16) !important;
+    }
+
+    .cta h2 {
+        font-size: var(--font-size-2xl);
+        padding: 0 var(--space-2);
+    }
+
+    .cta .btn {
+        padding: var(--space-4) var(--space-8);
+        width: 80%;
+    }
+}
